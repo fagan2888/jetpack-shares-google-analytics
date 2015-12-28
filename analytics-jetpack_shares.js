@@ -5,7 +5,7 @@
  * Adapted from:
  * https://gist.github.com/devinsays/e9a5a42c1416b16f8bae#file-tracking-js
  */
-jQuery(document).ready(function($){
+jQuery(document).ready((function($){
   if( typeof(ga) == 'function' ){
     var ajs_networks = [
       { network: 'Twitter',  selector: 'a.share-twitter' },
@@ -27,4 +27,4 @@ jQuery(document).ready(function($){
       });
     }
   }
-})(jQuery);
+})(jQuery));
