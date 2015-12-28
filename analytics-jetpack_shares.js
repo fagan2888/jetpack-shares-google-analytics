@@ -7,7 +7,7 @@
  */
 jQuery('document').ready(function($){
   if( typeof(ga) == 'function' ){
-    var ajs-networks = [
+    var ajs_networks = [
       { network: 'Twitter',  selector: 'a.share-twitter' },
       { network: 'Facebook', selector: 'a.share-facebook' },
       { network: 'Google',   selector: 'a.share-google-plus-1' },
@@ -16,7 +16,7 @@ jQuery('document').ready(function($){
     ];
 
     // On click, send GA a Social Interaction message
-    for( var target of ajs-networks ){
+    for( var target of ajs_networks ){
       $(target.selector).on('click', function() {
         ga('send', {
           hitType: 'social',
