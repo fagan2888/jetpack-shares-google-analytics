@@ -7,7 +7,7 @@
  */
 jQuery(document).ready((function($){
   if( typeof(ga) == 'function' ){
-    var ajs_networks = [
+    var target = [
       { network: 'Twitter',  selector: 'a.share-twitter' },
       { network: 'Facebook', selector: 'a.share-facebook' },
       { network: 'Google',   selector: 'a.share-google-plus-1' },
@@ -16,15 +16,16 @@ jQuery(document).ready((function($){
     ];
 
     // On click, send GA a Social Interaction message
-    for( var target of ajs_networks ){
-      $(target.selector).on('click', function() {
+    // Uses immediate function closure to distinguish anonymous functions
+    for( var i = 0; i < ajs_networks.length; i++ ) (function(n){
+      $(target[n].selector).on('click', function(){
         ga('send', {
           hitType: 'social',
-          socialNetwork: target.network,
+          socialNetwork: target[n].network,
           socialAction: 'share',
           socialTarget: $(this).attr('href').substr(0, $(this).attr('href').indexOf('?'))
         });
       });
-    }
+    })(i);
   }
 })(jQuery));
