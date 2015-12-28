@@ -17,7 +17,7 @@ jQuery(document).ready((function($){
 
     // On click, send GA a Social Interaction message
     // Uses immediate function closure to distinguish anonymous functions
-    for( var i = 0; i < ajs_networks.length; i++ ) (function(n){
+    for( var i = 0; i < target.length; i++ ) (function(n){
       $(target[n].selector).on('click', function(){
         ga('send', {
           hitType: 'social',
