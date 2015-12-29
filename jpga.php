@@ -3,7 +3,7 @@
  * Plugin Name: Jetpack Shares as Google Analytics Social Interactions
  * Description: Track Jetpack social shares as Google Analytics Social Interactions
  * Author: Gregory Foster
- * Author URI: https://github.com/gregoryfoster/jetpack-shares-as-google_analytics-social_interactions
+ * Author URI: https://github.com/gregoryfoster/jetpack-shares-google-analytics
  * Version: 0.1
  */
 defined('ABSPATH') or die('No script kiddies please!');

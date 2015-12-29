@@ -4,7 +4,7 @@ This JavaScript file and/or WordPress Plugin enables WordPress sites which utili
 ## References
 
 * Google Analytics - [About Social plugins and interactions](https://support.google.com/analytics/answer/6209874)
-* Google Analytics - [Analytics for Web (analytics.js) - Social Interactions](https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions)
+* Google Analytics - Analytics for Web (analytics.js) - [Social Interactions](https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions)
 * [Jetpack Sharing (formerly Sharedaddy)](https://jetpack.me/support/sharing/)
 
 ## Related Projects:

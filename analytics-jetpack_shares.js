@@ -1,6 +1,6 @@
 /**
  * Track Jetpack social shares as Google Analytics Social Interactions
- * https://github.com/gregoryfoster/jetpack-shares-as-google_analytics-social_interactions
+ * https://github.com/gregoryfoster/jetpack-shares-google-analytics
  *
  * Adapted from:
  * https://gist.github.com/devinsays/e9a5a42c1416b16f8bae#file-tracking-js
